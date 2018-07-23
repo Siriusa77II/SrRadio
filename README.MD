@@ -1,8 +1,8 @@
 # Sirius Radio
 ### Powered by CloudsdaleGroup  
   
-  Sirius radio est une radio Libre, qui diffuse de la musique libre de droit.  
-  le but a la base etait de crÃ©e une radio en moins de 24h je l'ai fait en moins de 2heures.
+  Sirius radio est une radio Libre qui diffuse de la musique libre de droit.  
+  le but à la base était de crée une radio en moins de 24h je l'ai fais en moins de 2 heures.
 
 ## ToDo
 - [ ] Home  
@@ -14,7 +14,7 @@
 - [ ] Staff  
 - [ ] Song Request  
   
-- [ ] Liens Navbar a ne pas oublier  
+- [ ] Liens Navbar à ne pas oublier  
 - [ ] Setup Liens fichier CDN Shoutcast  
 - [ ] Setup Azuracast  
 - [ ] upload quelques  
