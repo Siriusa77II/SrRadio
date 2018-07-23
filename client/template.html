@@ -1,3 +1,74 @@
 <template name="home">
-    <center><h1>HELLO WORLD</h1></center>
+    <div class="container">
+        <div class="row">
+            <div class="Welcome col-sm-12"><center>Bienvenue sur Sirius Radio!</center></div>
+        </div>
+        <div class="row">
+            <div class="playerac col-sm-offset-1 col-sm-3">
+                <iframe src="https://broadcaster2.cloudsdaleradio.com/public/sirius_radio/embed" frameborder="0" allowtransparency="true" style="width: 100%; min-height: 150px; border: 0;"></iframe>
+            </div>
+            <div class="otherlinks col-sm-offset-3 col-sm-5">
+                <div class="btn-group" role="group" aria-label="Other Links">
+                    <a href="#popup"><button type="button" class="btn btn-secondary">Popup</button></a>
+                    <a href="#fichier"><button type="button" class="btn btn-secondary">Fichier</button></a>
+                    <a href="#browser"><button type="button" class="btn btn-secondary">Navigateur</button></a>
+                    <a href="#songrequest"><button type="button" class="btn btn-secondary">Song Request</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+<template name="songrequest">
+    <div class="col-sm-12">
+        <iframe src="https://broadcaster2.cloudsdaleradio.com/public/sirius_radio/embed-requests" frameborder="0" allowtransparency="true" style="width: 100%; min-height: 850px; border: 0;"></iframe>
+    </div>
+</template>
+<template name="contact">
+    <div class="col-sm-offset-1 col-sm-3">
+        <h1>Nous contacter</h1>
+        <p><h3>Par mail:</h3><br>
+        <a href="MAILTO:contact@Cloudsdalegroup.com">Contact@cloudsdalegroup.com</a>
+        <h3>Discord:</h3>
+        <a href="https://discord.gg/uMhuaCy">Sirius#0001<br>
+    </p>
+    </div>
+</template>
+<template name="changelogs">
+    <div class="col-sm-offset-1 col-sm-11">
+        <h1>Change Logs</h1>
+        <div class="col-sm-offset-1">
+            <h3>Version 1.0</h3>
+                <li>Creation base du site</li>
+                <li>Ajout Now playing</li>
+                <li>Ajout Popup</li>
+                <li>Ajout liens partenaire</li>
+                <li>Ajout page contact</li>
+                <li>ajout Fichier MU3</li>
+                <li>Ajout Page Staff</li>
+                <li>Ajout page "Qui sommes nous ?"</li>
+                <li>Ajout Site map</li>
+                <li>Ajout Page "Server"</li>
+            
+            <h3>Version 2.0</h3>
+                <li>Conversion Site pour OctoberCMS</li>
+                <li>refonte du site.</li>
+            <h3>Version 3.0 <strong>(Actuele)</strong></h3>
+                <li>Refonte du site</li>
+                <li>Ajout Script CDN</li>
+                <li>Ajout meteor</li>
+                <li>Ajout Boostrap</li>
+                <li>Ajout navbar</li>
+                
+        </div>
+    </div>
+</template>
+<template name="works">
+<div class="col-sm-offset-1 col-sm-11">
+    <p class="text-justify">
+        Bienvenue sur Sirius Radio, si vous venez ici c'est probablement que vous etes interesser par l'interieur de la radio et de comment elle est constuite.
+        A la base Cloudsdale Radio etait le projet de construire une radio le plus rapidement possible, la 1er version du site et le broadcaster m'ont pris deux heures.
+        Le site tournais sur un sous domaine, et une instance apache + HTML CSS pure. par la suite j'ai mis a jours le site en passant par <a href="">OctoberCMS</a> que j' ai fini par changer pour une technologie plus réactive et plus moderne que du PHP.
+        C'est alors qu'est arriver la version 3.0 Sous NodeJS et Meteor pour etre plus précis.</p>
+    </p>
+</div>
 </template>
