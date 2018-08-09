@@ -1,0 +1,64 @@
+body { 
+  margin:0;
+  padding:0;
+  background-color: #4f4f4f !important;
+  overflow-x: hidden;
+}
+.logo {
+  margin-bottom: 5%
+}
+.txtbg {
+  background-color: #fff;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 5px;
+}
+.welcome {
+  text-align: center;
+  margin-right: 3%;
+}
+.text-left {
+text-align: left;
+}
+
+.text-right {
+text-align: right;
+}
+
+.text-center {
+text-align: center;
+}
+.footer {
+background-color: #1F1F1F; 
+padding: 10px; 
+border-color: white; 
+color: white; 
+width: 100%; 
+text-align: left; 
+bottom: 0px;
+overflow: hidden-x;
+margin-top: 5%;
+}
+.prototype {
+  color:red;
+}
+.banner {
+  background-color: red;
+  position: absolute; 
+  top: 30px; 
+  left: 0;  
+  width: 100%; 
+}
+.sm2-bar-ui {
+font-size: 16px;
+}
+.sm2-bar-ui .sm2-main-controls,
+.sm2-bar-ui .sm2-playlist-drawer {
+background-color: #2288cc;
+}
+.sm2-bar-ui .sm2-inline-texture {
+background: transparent;
+}
+.fix {
+text-decoration: line-through;
+}

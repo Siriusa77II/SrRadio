@@ -1,22 +1,22 @@
 {
-  "name": "SiriusRadio",
+  "name": "siriusradio",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "meteor run",
-    "test": "meteor test --once --driver-package meteortesting:mocha",
-    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
-    "visualize": "meteor --production --extra-packages bundle-visualizer"
+    "start": "node ./bin/www"
   },
   "dependencies": {
-    "@babel/runtime": "^7.0.0-beta.51",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-handlebars": "^3.0.0",
+    "http-errors": "~1.6.2",
     "jquery": "^3.3.1",
-    "meteor-node-stubs": "^0.4.1"
+    "morgan": "~1.9.0",
+    "popper.js": "^1.14.4"
   },
-  "meteor": {
-    "mainModule": {
-      "client": "client/main.js",
-      "server": "server/main.js"
-    },
-    "testModule": "tests/main.js"
+  "devDependencies": {
+    "webpack": "^4.16.5"
   }
 }
