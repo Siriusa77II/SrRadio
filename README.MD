@@ -1,4 +1,5 @@
-# Sirius Radio
+# Sirius Radio  
+[![CircleCI](https://circleci.com/gh/Siriusa77II/SrRadio.svg?style=svg)](https://circleci.com/gh/Siriusa77II/SrRadio)
 ### Powered by CloudsdaleGroup  
   
   Sirius radio est une radio Libre qui diffuse de la musique libre de droit.  
