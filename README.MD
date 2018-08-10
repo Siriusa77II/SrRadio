@@ -7,22 +7,22 @@
 ### Passage de meteor à Express -> 09/08/2018
 
 ## ToDo
-- [ ] Home  
-- [ ] Popup  
-- [ ] Contact  
+- [x] Home  
+- [x] Popup  
+- [x] Contact  
 - [ ] Partenaire  
-- [ ] Updates  
+- [x] Updates  
 - [ ] Server  
 - [ ] Staff  
 - [ ] Song Request  
   
-- [ ] Liens Navbar à ne pas oublier  
-- [ ] Setup Liens fichier CDN Shoutcast  
-- [ ] Setup Azuracast  
-- [ ] upload quelques  
-- [ ] installer MUPÂ¨Putaing!  
+- [x] Liens Navbar à ne pas oublier  
+- [x] Setup Liens fichier CDN Shoutcast  
+- [x] Setup Azuracast  
+- [x] upload quelques tracks  
+- [x] ~~installer MUP Putaing!~~  
   
 - [x] ~~Setup Iron router~~
-- [ ] Mettre en place les routes  
-- [ ] verifier toutes les routes  
-- [ ] 
+- [x] Mettre en place les routes  
+- [x] verifier toutes les routes  
+- [x] 

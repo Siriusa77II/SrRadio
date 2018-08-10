@@ -26,7 +26,7 @@ var xhr = new XMLHttpRequest()
                 }else{
 
                     //Now Playing
-                    $('.song').text('Now Playing: ' + data.now_playing.song.text);
+                    $('.song').text(data.now_playing.song.text);
                     //Check if requested or not. if true  show it.
                     $('.nowRequest').text('Now Playing: ' + data.now_playing.song.text);
 

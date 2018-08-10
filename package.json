@@ -14,7 +14,8 @@
     "http-errors": "~1.6.2",
     "jquery": "^3.3.1",
     "morgan": "~1.9.0",
-    "popper.js": "^1.14.4"
+    "popper.js": "^1.14.4",
+    "soundmanager2": "^2.97.20170602"
   },
   "devDependencies": {
     "webpack": "^4.16.5"
